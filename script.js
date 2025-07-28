@@ -26,11 +26,11 @@ window.addEventListener('resize', () => {       // 'resize' é disparado sempre 
 };
 
 // declarando no array novamente as info das pizzas contidas no HTML para se tornar manipulável pelo js.
-const pizzas = [{ nome: "Calabresa", preco: 29.99, imagem: "/images/69d92d7f-d8df-4041-96cd-709813fc4d05.png", descricao: "A pizza de calabresa traz o sabor da linguiça levemente picante, fatiada sobre uma camada de queijo mussarela, finalizada com cebolas frescas e orégano." },
-  { nome: "Salaminho", preco: 34.99, imagem: "/images/pizza-feliciana-salame-e-chorizo-600.png", descricao: "A pizza de salaminho destaca fatias de salame defumado sobre o queijo derretido, proporcionando um toque levemente apimentado e aroma intenso." },
-  { nome: "Peperonni", preco: 29.99, imagem: "/images/Pizza-Pepperoni-And-Cheese-PNG-Pic-Background.png", descricao: "Clássica da cozinha internacional, a pizza de peperonni possui fatias finas deste embutido temperado, acompanhadas pelo queijo mussarela derretido." },
-  { nome: "Tomate", preco: 24.99, imagem: "/images/pizza-margherita.png", descricao: "Essa pizza valoriza os ingredientes frescos: tomates em rodelas, orégano e queijo mussarela dão leveza e um toque adocicado ao paladar." },
-  { nome: "Azeitona", preco: 24.99, imagem: "/images/Expresso-Delivery_5924a8a9ca99b39e73f920d14683ef68.png", descricao: "Simples e deliciosa, a pizza de azeitona leva azeitonas pretas fatiadas sobre o queijo derretido, realçando o sabor com um toque de orégano." }];
+const pizzas = [{ nome: "Calabresa", preco: 29.99, imagem: "images/69d92d7f-d8df-4041-96cd-709813fc4d05.png", descricao: "A pizza de calabresa traz o sabor da linguiça levemente picante, fatiada sobre uma camada de queijo mussarela, finalizada com cebolas frescas e orégano." },
+  { nome: "Salaminho", preco: 34.99, imagem: "images/pizza-feliciana-salame-e-chorizo-600.png", descricao: "A pizza de salaminho destaca fatias de salame defumado sobre o queijo derretido, proporcionando um toque levemente apimentado e aroma intenso." },
+  { nome: "Peperonni", preco: 29.99, imagem: "images/Pizza-Pepperoni-And-Cheese-PNG-Pic-Background.png", descricao: "Clássica da cozinha internacional, a pizza de peperonni possui fatias finas deste embutido temperado, acompanhadas pelo queijo mussarela derretido." },
+  { nome: "Tomate", preco: 24.99, imagem: "images/pizza-margherita.png", descricao: "Essa pizza valoriza os ingredientes frescos: tomates em rodelas, orégano e queijo mussarela dão leveza e um toque adocicado ao paladar." },
+  { nome: "Azeitona", preco: 24.99, imagem: "images/Expresso-Delivery_5924a8a9ca99b39e73f920d14683ef68.png", descricao: "Simples e deliciosa, a pizza de azeitona leva azeitonas pretas fatiadas sobre o queijo derretido, realçando o sabor com um toque de orégano." }];
 
 // para o carrossel:
 let start = 0; // cada pizza tem um índice, e aqui declara que iniciará na primeira '0'

@@ -67,7 +67,7 @@ section.imagem {
 }
 
 section#img {
-    background-image: url('/images/pexels-giona-mason-1751396-19260835.jpg');
+    background-image: url('./images/pexels-giona-mason-1751396-19260835.jpg');
     background-position: right center;
 }
 
@@ -255,6 +255,6 @@ section.imagem2 {
 }
 
 section#img2 {
-    background-image: url('/images/pexels-fariphotography-905847.jpg');
+    background-image: url('./images/pexels-fariphotography-905847.jpg');
     background-position: center;
 }

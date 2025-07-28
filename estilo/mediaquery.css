@@ -147,44 +147,48 @@ header {
         font-size: 30pt;
     }
 
-  div#intro {
-    flex-direction: column;
-    padding: 20px;
-    font-size: 12pt;
-  }
+    div#intro {
+        flex-direction: column;
+        padding: 20px;
+        font-size: 12pt;
+    }
 
-  div#intro > p {
-    width: 100%;
-    font-size: 16pt;
-    text-align: center;
-    padding-bottom: 50px;
-  }
+    div#intro > p {
+        width: 100%;
+        font-size: 16pt;
+        text-align: center;
+        padding-bottom: 50px;
+    }
 
-  div#intro > h2 {
-    font-size: 22pt;
-    margin-bottom: 5px;
-    text-align: center;
-  }
+    div#intro > h2 {
+        font-size: 22pt;
+        margin-bottom: 5px;
+        text-align: center;
+    }
 
     section.info_ {
-    padding: 20px 10px;
-  }
-
-  .info_ #quem_somos,
-  .info_ #historia {
-    max-width: 100%;
-    padding: 30px 15px;
-    font-size: 16pt;
-  }
-
-    #fc, #fnc {
-    height: auto;
-    max-height: auto;
-    padding: 10px;
+        padding: 20px 10px;
     }
-}
 
-@media screen and (max-width: 600px) {
+    section#img2 {
+        display: none;
+    }
+
+    .info_ #quem_somos,
+    .info_ #historia {
+        max-width: 100%;
+        padding: 30px 15px;
+        font-size: 16pt;
+    }
+
+        #fc, #fnc {
+        height: auto;
+        max-height: auto;
+        padding: 10px;
+        }
+    }
+
+@media screen and (max-width: 700px) {
     body {
         font-size: 14px;
     }
@@ -205,6 +209,14 @@ header {
         display: block;
         color: rgb(35, 33, 31);
         font-size: 25pt;
+    }
+
+    section#img {
+        background: linear-gradient(green,white,red);
+    }
+
+    section#img2 {
+        display: none;
     }
 
     footer.final, .final_ {
@@ -244,6 +256,11 @@ header {
         font-size: 14px;
     }
 
+    .final_ {
+        height: 100vh;
+        max-height: 317px;
+    }
+
     footer.final i, .final_ i {
         font-size: 30px;
         margin-left: 5px;
@@ -254,7 +271,8 @@ header {
     }
 
     .final_ #repeat_logo {
-        display: none;
+        display: block;
+        padding-top: 10px;
     }
 
     #fc, #fnc {

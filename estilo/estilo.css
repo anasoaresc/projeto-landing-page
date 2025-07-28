@@ -64,6 +64,7 @@ section.imagem {
     background-size: cover;
     background-attachment: fixed;
     height: 600px;
+    width: 100%;
 }
 
 section#img {

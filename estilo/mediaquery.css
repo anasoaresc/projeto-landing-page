@@ -38,7 +38,7 @@ header {
     padding: 0px 5px 0px 5px;
     cursor: pointer;
     display: none;
-    background-color: rgb(35, 33, 31);
+    color: rgb(35, 33, 31);
 }
 
 #mobile_menu{
@@ -52,6 +52,8 @@ header {
 
     #mobilebtn, #closemobilebtn {
         display: block;
+        color: rgb(35, 33, 31);
+        font-size: 30pt;
     }
 
     #mobilebtn {
@@ -138,6 +140,13 @@ header {
 }
 
 @media screen and (max-width: 900px) {
+
+    #mobilebtn, #closemobilebtn {
+        display: block;
+        color: rgb(35, 33, 31);
+        font-size: 30pt;
+    }
+
   div#intro {
     flex-direction: column;
     padding: 20px;
@@ -190,6 +199,12 @@ header {
 
     header > nav {
         padding: 15px 5%;
+    }
+
+    #mobilebtn, #closemobilebtn {
+        display: block;
+        color: rgb(35, 33, 31);
+        font-size: 25pt;
     }
 
     footer.final, .final_ {

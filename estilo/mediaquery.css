@@ -37,7 +37,8 @@ header {
     font-weight: bold;
     padding: 0px 5px 0px 5px;
     cursor: pointer;
-    display: none;   
+    display: none;
+    background-color: rgb(35, 33, 31);
 }
 
 #mobile_menu{

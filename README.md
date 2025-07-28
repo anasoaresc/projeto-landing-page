@@ -1,6 +1,6 @@
 ## Italian House - Landing Page para Restaurante Italiano
 
-Este projeto é uma landing page completa para o restaurante **Italian House**, desenvolvida com foco em experiência do usuário e design responsivo.
+Este projeto é uma landing page para o restaurante fictício **Italian House**, desenvolvida com foco em experiência do usuário e design responsivo.
 
 ### Destaques do Projeto:
 >

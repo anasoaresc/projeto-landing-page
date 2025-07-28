@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+header {
+    height: 100%;
+    width: 100%;
+    padding: 25px 8%;
+}
+
+#menu {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav_logo {
+    font-size: 40px;
+    color: rgb(35, 33, 31);
+}
+
+#nav_list {
+    display: flex; 
+    list-style: none; 
+    gap: 50px;
+}
+
+.nav-item a {
+    text-decoration: none; 
+    color: rgb(35, 33, 31);
+    font-weight: 700;
+}
+
+#mobilebtn, #closemobilebtn {
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+    display: none;   
+}
+
+#mobile_menu{
+    display: none;
+}
+
+@media screen and (max-width: 1170px) {
+    #menu #nav_list {
+        display: none;
+    }
+
+    #mobilebtn, #closemobilebtn {
+        display: block;
+    }
+
+    #mobilebtn {
+        margin-left: auto;
+    }
+
+    #closemobilebtn {
+        position: fixed;
+        right: 15px;
+        top: 15px;
+    }
+
+    #mobile_menu {
+        display: none;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    #mobile_menu.active {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(224, 221, 221, 0.899);
+        opacity: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    #mobile_nav_list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    #mobile_nav_list .nav-item {
+        list-style: none;
+        text-align: center;
+        font-size: 15pt;
+        padding: 20px;
+    }
+
+    div#intro {
+        padding-right: 10px;
+    }
+
+    div#itens_pizza {
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    .pizza-card {
+        width: 300px;
+        margin: 10px;
+    }
+
+    footer.final, .final_ {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 40px;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #info > ul, #redes_sociais > ul {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    #fc, #fnc {
+    height: auto;
+    max-height: auto;
+    padding: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+  div#intro {
+    flex-direction: column;
+    padding: 20px;
+    font-size: 12pt;
+  }
+
+  div#intro > p {
+    width: 100%;
+    font-size: 16pt;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  div#intro > h2 {
+    font-size: 22pt;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+    section.info_ {
+    padding: 20px 10px;
+  }
+
+  .info_ #quem_somos,
+  .info_ #historia {
+    max-width: 100%;
+    padding: 30px 15px;
+    font-size: 16pt;
+  }
+
+    #fc, #fnc {
+    height: auto;
+    max-height: auto;
+    padding: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    h2, h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    header > nav {
+        padding: 15px 5%;
+    }
+
+    footer.final, .final_ {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 10px;
+        gap: 15px;
+        text-align: center;
+    }
+
+    #info > ul, #redes_sociais > ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    div#itens_pizza {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pizza-card {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .seta.esquerda,
+    .seta.direita {
+        height: 40px;
+        width: 40px;
+        font-size: 20pt;
+        margin: 5px;
+    }
+
+    footer.final, .final_ {
+        padding: 20px 15px;
+        gap: 15px;
+        font-size: 14px;
+    }
+
+    footer.final i, .final_ i {
+        font-size: 30px;
+        margin-left: 5px;
+    }
+
+    #info > ul > li > a, #redes_sociais > ul > li > a {
+        font-size: 16px;
+    }
+
+    .final_ #repeat_logo {
+        display: none;
+    }
+
+    #fc, #fnc {
+    height: auto;
+    max-height: auto;
+    padding: 10px;
+    }
+
+}

@@ -170,6 +170,10 @@ header {
         padding: 20px 10px;
     }
 
+    section#img {
+        background: linear-gradient(green,white,red);
+    }
+
     section#img2 {
         display: none;
     }
